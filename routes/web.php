@@ -21,3 +21,7 @@ Route::get('/welcome', function () {
 Route::get ('/user',  function(){
         return view('user');
 })->name('user');
+
+Route:: get('/home'; function(){
+    return "home";
+});
