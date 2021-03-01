@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Illuminate\Support\Facades\DB;
+use App\Models\Post;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,3 +41,16 @@ Route::get('/Portfolio', function () {
 Route::get('/Contact', function () {
     return view('Contact');
 });
+
+
+Route::get('/post/create', function () {
+    DB::table('post')->insert([
+    'title'=>'Back end.',
+    'body'=>' In software engineering, the terms front end and back end refer to the separation of concerns between the presentation layer '
+    ]);
+ });
+
+ Route::get('/post', function () {
+    $post= Post::find(1);
+    return $post->body;
+ });
