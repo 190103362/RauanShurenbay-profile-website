@@ -9,3 +9,6 @@
 3
 
 ![3](https://user-images.githubusercontent.com/78795123/109459563-39936000-7a89-11eb-8afa-751459525ab9.png)
+
+LAB 4
+![1](https://user-images.githubusercontent.com/78795123/109469787-b4b04280-7a98-11eb-829d-711f22b462a2.png)
