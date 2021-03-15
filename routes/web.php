@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use Illuminate\Support\Facades\DB;
-use App\Models\Post;
+use App\Http\Controllers\BlogController;
 
 
 /*
@@ -54,3 +54,5 @@ Route::get('/post/create', function () {
     $post= Post::find(1);
     return $post->title;
  });
+
+ Route::get('post', [BlogController::class, 'index']);
