@@ -29,7 +29,7 @@ class PostTest extends TestCase
     {
         $response = $this->get('/post/10000');
 
-        $response->assertStatus(200);
+        $response->assertStatus(404);
     }
 
     
