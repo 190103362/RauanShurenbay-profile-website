@@ -28,6 +28,6 @@ class Post extends Migration
      */
     public function down()
     {
-        //
+      
     }
 }
