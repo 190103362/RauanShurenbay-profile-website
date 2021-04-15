@@ -1,4 +1,6 @@
 <!doctype html>
+<html lang ="kz">
+<html lang ="ru">
 <html>
 
 <head>
@@ -20,16 +22,16 @@
         <nav>
 
             <a href="#" class="logo">
-                <font color="021A81">Portfolio</font>
+                <font color="021A81">{{__('lang.Portfolio')}}</font>
 
             </a>
             </div>
             <ul class="menu">
-                <li class="active"><a href="#main">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-form">Contact</a></li>
+                <li class="active"><a href="#main">{{__('lang.Home')}}</a></li>
+                <li><a href="#about">{{__('lang.About')}}</a></li>
+                <li><a href="#services">{{__('lang.Services')}}</a></li>
+                <li><a href="#portfolio">{{__('lang.Portfolio')}}</a></li>
+                <li><a href="#contact-form">{{__('lang.Contact')}}</a></li>
             </ul>
 
             <a href="#" class="lang"></a>
@@ -38,13 +40,14 @@
 <div class="name">
 
 
-<h1>I'm
-    <font>Rauan</font>
-    <font>Shurenbay</font>
+<h1> 
+    {{__('lang.I')}}
+    <font>{{__('lang.Rauan')}}</font>
+    <font>{{__('lang.Shurenbay')}}</font>
 </h1>
 
 <br>
-<p style="color: black;">Programmer.Student of SDU university.</p>
+<p style="color: black;">{{__('lang.Programmer')}}</p>
 </br>
 </div>
 

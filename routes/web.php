@@ -64,3 +64,9 @@ Route::post('post/create', [BlogController::class, 'store'])->name('add-post');
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
 
+Route::get('Home/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('Home');
+});
+
+
